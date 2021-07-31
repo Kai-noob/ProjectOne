@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutterproject/constants/constants.dart';
+import '../constants/constants.dart';
 
 class BackgroundPainter extends CustomPainter{
   BackgroundPainter():kPrimaryPaint=Paint()..color=kPrimaryColor..style=PaintingStyle.fill; 
@@ -21,7 +21,6 @@ class BackgroundPainter extends CustomPainter{
 
   @override
   bool shouldRepaint(covariant CustomPainter oldDelegate) {
-    // TODO: implement shouldRepaint
    return true;
   }
 
